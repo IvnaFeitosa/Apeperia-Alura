@@ -1,0 +1,34 @@
+.about {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-title {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 1.25rem;
+}
+
+.about-text {
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.about-texto-featured {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.about-plataform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-bottom: 1rem;
+}

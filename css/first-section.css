@@ -31,3 +31,21 @@
 .main-first-content-button {
     width: 100%;
 }
+
+@media screen and (min-width:768px){
+    .main-first-content-text {
+        max-width: 600px;
+    }
+
+}
+@media screen and (min-width:1024px){
+    .main-first-content{
+        background-image:url(../img/bg-intro.jpg);
+        background-size:cover;
+        padding-top: 8.25rem;
+    }
+    .main-first-content-title{
+        font-size:3.25rem;
+        margin-bottom:2rem;
+    }
+}

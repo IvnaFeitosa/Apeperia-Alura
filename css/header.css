@@ -27,10 +27,19 @@
 
 .header-content-nav-link {
     font-size: 1.1rem;
-
+    font-family: var(--opensans);
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+}
+@media screen and (min-width:1024px) {
+    .header-content {
+        flex-direction: row;
+        justify-content:space-between;
+        border:none;
+    }
+    .header-content-nav-items{
+        padding-top:10px;
+    }
 }

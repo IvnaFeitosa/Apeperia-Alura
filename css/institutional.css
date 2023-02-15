@@ -52,3 +52,32 @@
 .institutional-video {
     width: 100vw;
 }
+
+@media screen and (min-width:768px){
+    .institutional-contact-email{
+        display:inline-block;
+    }
+    .institutional-video{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .institutional-content {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+
+    .institutional-video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .institutional-contact-email {
+        display: block;
+    }
+}

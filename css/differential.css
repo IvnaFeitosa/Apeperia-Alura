@@ -39,3 +39,12 @@
 .item-text {
     line-height: normal;
 }
+@media screen and (min-width:1024px){
+    .differentials{
+        background-color: var(--cinza-claro);
+
+    }
+    .differentials-list{
+        justify-content:space-around;
+    }
+}

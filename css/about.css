@@ -20,7 +20,7 @@
     margin-bottom: 1rem;
 }
 
-.about-texto-featured {
+.about-text-featured {
     color: var(--cinza-escuro);
     font-weight: 700;
 }
@@ -31,4 +31,22 @@
     justify-content: space-evenly;
 
     margin-bottom: 1rem;
+}
+.about-img{
+    display:none;
+}
+@media screen and (min-width:1024px){
+    .about{
+        display:flex;
+    }
+    .about-content{
+        margin-right: 3rem;
+    }
+    .about-img{
+        display:block;
+    }
+    .about-text-division{
+        border-bottom: 1px solid var(--cinza-escuro);
+        padding-bottom: 1.5rem;
+    }
 }

@@ -1,4 +1,4 @@
-.contato {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     padding-bottom: 2rem;
 }
 
-.contato-titulo {
+.contact-title {
     color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.5rem;
@@ -20,7 +20,7 @@
     margin-bottom: 1.25rem;
 }
 
-.contato-botao {
+.contact-button {
     color: var(--cinza-escuro);
 
     border-color: var(--cinza-escuro);
